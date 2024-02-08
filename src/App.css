@@ -47,10 +47,12 @@
 
 .btn {
   padding: 8px 24px;
-  background-color: #393939;
+  background-color: #0d0059;
   border: none;
   border-radius: 4px;
   color: #fff;
+  cursor: pointer;
+  margin-right: 24px;
 }
 
 .logo {

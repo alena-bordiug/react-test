@@ -1,8 +1,9 @@
-function PrimaryBtn() {
-
-    return (
-        <button type="button" class="btn">Learn More</button>
-    )
+function Button({onClick, text, color}) {
+  return (
+    <button type='button' className='btn' onClick={onClick} style={{backgroundColor: color}}>
+      {text}
+    </button>
+  );
 }
 
-export default PrimaryBtn
+export default Button;
